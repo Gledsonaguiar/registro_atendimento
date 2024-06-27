@@ -3,7 +3,7 @@ class Conexao {
 
 //ABRIR
     private static function abrir(){
-        $banco = "projeto_a3";
+        $banco = "gestãoatendimentos";
         $local = "localhost";
         $user = "root";
         $senha = "";
