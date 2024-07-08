@@ -22,6 +22,7 @@ class UsuarioDAO{
         $sql = "SELECT idUsuario, nomeUsuario, emailUsuario 
                 FROM usuario 
                 WHERE loginUsuario = '$login' AND senhaUsuario = '$senha' ";
+        echo $sql;
               
         $result = Conexao::consultar($sql);
             if (mysqli_num_rows($result) == 0){
